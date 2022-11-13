@@ -2,6 +2,6 @@
 int num1 = Convert.ToInt32(Console.ReadLine());
 
 if (num1 % 2 == 0)
-    Console.WriteLine("number is even");
+    Console.WriteLine($"number {num1} is even");
 else
-    Console.WriteLine("number is odd");
+    Console.WriteLine($"number {num1} is odd");
